@@ -180,7 +180,7 @@ public class CutCopyPasteBehavior extends AbstractEditorPartBehavior
         byteArrayOutputStream.toString();
         String xmlContent = byteArrayOutputStream.toString();
         /************************************************************************/
-        System.out.println("xmlContent = " + xmlContent);
+        System.out.println(xmlContent);
         /************************************************************************/
         pushContentToSystemClipboard(xmlContent);
 
